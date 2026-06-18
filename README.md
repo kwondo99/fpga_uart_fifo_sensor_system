@@ -1,3 +1,5 @@
+git : https://github.com/kwondo99/fpga_uart_fifo_sensor_system
+
 # FPGA UART FIFO Sensor System
 
 ## Project Overview
@@ -7,6 +9,14 @@ BASYS3 FPGA 보드에서 UART 통신, FIFO, ASCII Decoder/Sender, Watch/Stopwatc
 PC 키보드 입력을 UART로 수신하고, ASCII 명령어를 해석하여 보드의 시간 관리 기능과 센서 측정 기능을 제어하도록 설계했다. 측정된 시간 및 센서 데이터는 FND, LED, UART TX를 통해 확인할 수 있도록 구성했다.
 
 전체 기능 블록을 연결하는 Top Module 구성과, 버튼 입력 및 ASCII 명령을 통합 제어하는 Control Unit 설계를 담당했다.
+
+**사용 언어:**
+
+Verilog
+
+**사용 도구:**
+
+Xilinx Vivado (Simulator)
 
 ## Project Information
 
